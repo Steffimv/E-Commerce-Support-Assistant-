@@ -85,8 +85,8 @@ Access: Available on GitHub and Hugging Face.
 5. This unsupervised technique helped build a deeper understanding of customer issue patterns, enhancing both retrieval accuracy and the final LLM-generated output quality.
 
 ### Acknowledgements
-SentenceTransformers – for semantic text embeddings.
-FAISS (Facebook AI) – for scalable and efficient similarity search.
-Streamlit – for building the interactive frontend.
-Ollama – for enabling local LLM inference using TinyLLaMA.
-Bitext Dataset – for providing a robust, structured customer support dataset.
+1. SentenceTransformers – for semantic text embeddings.
+2. FAISS (Facebook AI) – for scalable and efficient similarity search.
+3. Streamlit – for building the interactive frontend.
+4. Ollama – for enabling local LLM inference using TinyLLaMA.
+5. Bitext Dataset – for providing a robust, structured customer support dataset.
