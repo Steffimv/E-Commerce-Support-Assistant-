@@ -61,21 +61,7 @@ streamlit run app.py
 ollama run tinyllama
 ```
 
-CUSTOMER_SUPPORT_BOT/
-├── app.py                         # Streamlit frontend for user interaction
-├── clustering.ipynb               # Clustering analysis with elbow method
-├── vector_db.ipynb                # Embedding generation and FAISS indexing
-├── EDA.ipynb                      # Exploratory Data Analysis
-├── cleaned_filtered_ds.xlsx       # Cleaned dataset used in the final application
-├── filtered_ds.xlsx               # Initial filtered dataset after column selection
-├── cluster_similarity_matrix.xlsx # Matrix showing description-solution cluster mapping
-├── customer_query(ds).csv         # Sample input query file (CSV)
-├── desc_index.faiss               # FAISS index file of description embeddings
-├── desc_metadata.pkl              # Metadata for FAISS (description, solution, category)
-├── desc_embeddings.pkl            # Pickled Sentence-BERT embeddings of descriptions
-├── soln_embeddings.pkl            # Pickled Sentence-BERT embeddings of solutions
-├── requirements.txt               # All Python dependencies
-├── README.md                      # Project documentation (you are here)
+<pre> ``` CUSTOMER_SUPPORT_BOT/ ├── app.py # Streamlit frontend for user interaction ├── clustering.ipynb # Clustering analysis with elbow method ├── vector_db.ipynb # Embedding generation and FAISS indexing ├── EDA.ipynb # Exploratory Data Analysis ├── cleaned_filtered_ds.xlsx # Cleaned dataset used in the final application ├── filtered_ds.xlsx # Initial filtered dataset after column selection ├── cluster_similarity_matrix.xlsx # Matrix showing description-solution cluster mapping ├── customer_query(ds).csv # Sample input query file (CSV) ├── desc_index.faiss # FAISS index file of description embeddings ├── desc_metadata.pkl # Metadata for FAISS (description, solution, category) ├── desc_embeddings.pkl # Pickled Sentence-BERT embeddings of descriptions ├── soln_embeddings.pkl # Pickled Sentence-BERT embeddings of solutions ├── requirements.txt # All Python dependencies ├── README.md # Project documentation (you are here) ``` </pre>
 
 ### Dataset
 This project leverages the Bitext Customer Support LLM Chatbot Training Dataset, a high-quality dataset developed for customer support automation and LLM fine-tuning.
